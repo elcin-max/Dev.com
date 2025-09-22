@@ -26,7 +26,7 @@ const Home = () => {
     clients: 0,
   });
 
-  const navigate = Navigate();
+  const navigate = useNavigate();
 
   useEffect(() => {
     setIsVisible(true);
