@@ -15,7 +15,7 @@ const App = () => {
       <div className="bg-black text-white min-h-screen">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Dev.com" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/skills" element={<Skills />} />
