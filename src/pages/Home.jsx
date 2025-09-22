@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import {
   ArrowRight,
   Github,
@@ -25,8 +24,6 @@ const Home = () => {
     experience: 0,
     clients: 0,
   });
-
-  const navigate = useNavigate();
 
   useEffect(() => {
     setIsVisible(true);
