@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
   ],
   // 👇 only the repo name goes here
-  base: '/Dev.com/',
+  base: '/Dev.com',
 })
