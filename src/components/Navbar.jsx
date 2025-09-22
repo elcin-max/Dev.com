@@ -25,7 +25,7 @@ const Navbar = () => {
   const currentPath = location.pathname;
 
   const navItems = [
-    { name: "Home", path: "/home", icon: Home },
+    { name: "Home", path: "/Dev.com", icon: Home },
     { name: "About", path: "/about", icon: User },
     { name: "Experience", path: "/experience", icon: Briefcase },
     { name: "Skills", path: "/skills", icon: Code },
